@@ -1,4 +1,4 @@
-![GenAI Learning Metromap](https://github.com/spraja08/GenAIMetroMap/resources/GenAIMetromap.png)
+![GenAI Learning Metromap](https://github.com/spraja08/GenAIMetroMap/blob/main/resources/GenAIMetromap.png)
 # GenAI Learning Metromap
 
 Welcome to the GenAI Learning Metromap! This guide will help you navigate through the essential subjects to become a proficient GenAI Engineer or GenAI Scientist. Follow the paths below to structure your learning journey.
