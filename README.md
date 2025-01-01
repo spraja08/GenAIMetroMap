@@ -10,7 +10,7 @@ Welcome to the GenAI Learning Metromap! This guide will help you navigate throug
    - **Calculus:** Many machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariate calculus and the concept of gradients are also important.
    - **Probability and Statistics:** These are crucial for understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
 
-📚 **References:**
+📚 **References:**  
 ![Why Machines Learn](https://a.co/d/3IKwY5X)
 
 2. **Programming Fundamentals**
