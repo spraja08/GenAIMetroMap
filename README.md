@@ -6,9 +6,9 @@ Welcome to the GenAI Learning Metromap! This guide will help you navigate throug
 ## Foundational
 
 1. <span style="color:green">**MATH BASICS**</span>
-   - **Linear Algebra:** Crucial for understanding many algorithms, especially those used in deep learning. Key concepts include vectors, matrices, determinants, eigenvalues and eigenvectors, vector spaces, and linear transformations
-   - **Calculus:** Many machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariate calculus and the concept of gradients are also important.
-   - **Probability and Statistics:** These are crucial for understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
+   - *Linear Algebra:* Crucial for understanding many algorithms, especially those used in deep learning. Key concepts include vectors, matrices, determinants, eigenvalues and eigenvectors, vector spaces, and linear transformations
+   - *Calculus:* Many machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariate calculus and the concept of gradients are also important.
+   - *Probability and Statistics:* These are crucial for understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
 
 📚 **References:**  
 - [Why Machines Learn: The Elegant Math Behind Modern AI](https://a.co/d/3IKwY5X)
