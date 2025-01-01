@@ -1,7 +1,7 @@
 ![GenAI Learning Metromap](https://github.com/spraja08/GenAIMetroMap/blob/main/resources/GenAIMetromap.png)
 # GenAI Learning Metromap
 
-> Welcome to the GenAI Learning Metromap! This field is vast and often steep and discouraging because of the dependent concepts that needs to be learnt first. This guide is an attempt to help you navigate through the dependencies to reduce the cognitive overload. There are mental models toward structuring this journey. If you have a better one, please do share your [feedback](mailto:spraja08@gmail.com). 
+> Welcome to the GenAI Learning Metromap! This field is vast and often steep and discouraging because of the dependent concepts that needed to be learnt first. This guide is an attempt to help the learners navigate through the dependencies to reduce the cognitive overload. There could be many mental models toward structuring this map but this worked for me. If you have a better one, please do share your [feedback](mailto:spraja08@gmail.com). 
 
 ## Foundational
 
