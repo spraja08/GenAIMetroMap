@@ -12,6 +12,8 @@ Welcome to the GenAI Learning Metromap! This guide will help you navigate throug
 
 📚 **References:**  
 - [Why Machines Learn](https://a.co/d/3IKwY5X)
+- [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
+- [And ofcourse the quintessential 3Blue1Brown](https://www.youtube.com/@3blue1brown)
 
 2. **Programming Fundamentals**
    - Python Basics
