@@ -20,6 +20,7 @@
    - *Data Science Libraries:* Includes NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization.
    - *Data Pre-processing:* Feature scaling and normalization, handling missing data, outlier detection, categorical data encoding, and splitting data into training, validation, and test sets.
    - *Machine Learning Libraries:* Scikit for traditional ML algos and Pytorch for Deeplearning. Understanding how to implement algorithms like linear regression, logistic regression, decision trees, random forests, k-nearest neighbours (K-NN), and K-means clustering is important. Dimensionality reduction techniques like PCA and t-SNE are also helpful for visualizing high-dimensional data
+   
 📚 **References:**  
    - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)  
    - [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)<sup>FREE BOOK</sup>  
