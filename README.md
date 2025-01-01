@@ -15,7 +15,7 @@ Welcome to the GenAI Learning Metromap! This guide will help you navigate throug
 - [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 - [And ofcourse, the quintessential "3Blue1Brown"](https://www.youtube.com/@3blue1brown)
 
-  
+<br><br>
 2. <span style="color:green">**PROGRAMMING**</span>
    - Python Basics
    - Data Structures and Algorithms
