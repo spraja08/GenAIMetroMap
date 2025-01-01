@@ -11,7 +11,7 @@ Welcome to the GenAI Learning Metromap! This guide will help you navigate throug
    - **Probability and Statistics:** These are crucial for understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
 
 📚 **References:**
-![Why Machines Learn](https://www.amazon.com/Why-Machines-Learn-Elegant-Behind-ebook/dp/B0CF1223R8/ref=sr_1_1?crid=1QJLHE2ZS283G&dib=eyJ2IjoiMSJ9.W7aFSW4gV2XBVJHsmF7D0Fbf92E4BLxxMudfqC9CFBw3CdXWRCR-cHRFYSm0A9bzmGAz4Pqf_9b2DxPhh1YooejmrruzAT0zsp19k9a0gYTiRp6cVzZFETBu-Jjj-O-QJPyTkm8nGnv5kB6xrIBEPbKv9anL_X9B6QvyOHofPL6hNqlrkBkeEUZ-zJUFZOeMr6qj-GsZ_VY5MaP1YaLP0dQPhqJ4zHoLTtDnnVy8V_E.y0oiF3NPfR_uhfgqs5z9jmh2Feg4GJLmNuLlbTjKyQI&dib_tag=se&keywords=why+machines+learn&qid=1735726056&sprefix=why+machines+learn%2Caps%2C473&sr=8-1)
+   - ![Why Machines Learn](https://a.co/d/3IKwY5X)
 
 2. **Programming Fundamentals**
    - Python Basics
