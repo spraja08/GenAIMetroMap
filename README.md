@@ -11,7 +11,7 @@
    - *Probability and Statistics:* For understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
 
 📚 **References:**  
-- [Why Machines Learn: The Elegant Math Behind Modern AI](https://a.co/d/3IKwY5X)
+- [Why Machines Learn: The Elegant Math Behind Modern AI](https://a.co/d/3IKwY5X)<sup>BOOK</sup>
 - [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 - [And ofcourse, the quintessential "3Blue1Brown"](https://www.youtube.com/@3blue1brown)
 <br><br>
