@@ -27,11 +27,11 @@
    - [Introduction to Machine Learning with Python by Andreas Müller and Sarah Guido](https://shop.oreilly.com/product/0636920030515.do)<sup>BOOK</sup>  
    - [Pytorch Tutorials](https://pytorch.org/tutorials/)
 <br><br>
-3. <span style="color:green">**NEURAL NETS & LLM**</span>
+3. <span style="color:green">**NEURAL NETs & LLMs**</span>
    - *Nueral Net Fundamentals:* Components of a neural network such as layers, weights, biases, and activation functions (sigmoid, tanh, ReLU, etc.)
    - *Training & Optimization:* Backpropagation and different types of loss functions, like Mean Squared Error (MSE) and Cross-Entropy. Understanding various optimization algorithms like Gradient Descent, Stochastic Gradient Descent, RMSprop, and Adam. Understanding the concept of overfitting (where a model performs well on training data but poorly on unseen data) and learn various regularization techniques (dropout, L1/L2 regularization, early stopping, data augmentation) to prevent it.
    - *Implementing MLPs:* Building a Multi Layer Perceptron, also known as a fully connected network, using PyTorch.
-   - *LLM Overview & LLM-OS:* 
+   - *LLM Overview & LLM-OS:*  The core technical component behind systems like ChatGPT, Claude, and Bard. What they are, where they are headed, comparisons and analogies to present-day operating systems.
 
 📚 **References:**  
    - [The Spelled-out Intro to Neural Networks](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)  
