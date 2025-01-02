@@ -20,13 +20,24 @@
    - *Data Science Libraries:* Includes NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization.
    - *Data Pre-processing:* Feature scaling and normalization, handling missing data, outlier detection, categorical data encoding, and splitting data into training, validation, and test sets.
    - *Machine Learning Libraries:* Scikit for traditional ML algos and Pytorch for Deeplearning. Understanding how to implement algorithms like linear regression, logistic regression, decision trees, random forests, k-nearest neighbours (K-NN), and K-means clustering is important. Dimensionality reduction techniques like PCA and t-SNE are also helpful for visualizing high-dimensional data
-   
+
 📚 **References:**  
    - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)  
    - [Python for Data Analysis by Wes McKinney](https://wesmckinney.com/book/)<sup>FREE BOOK</sup>  
    - [Introduction to Machine Learning with Python by Andreas Müller and Sarah Guido](https://shop.oreilly.com/product/0636920030515.do)<sup>BOOK</sup>  
    - [Pytorch Tutorials](https://pytorch.org/tutorials/)
+<br><br>
+3. <span style="color:green">**NEURAL NETS & LLM**</span>
+   - *Nueral Net Fundamentals:* Components of a neural network such as layers, weights, biases, and activation functions (sigmoid, tanh, ReLU, etc.)
+   - *Training & Optimization:* Backpropagation and different types of loss functions, like Mean Squared Error (MSE) and Cross-Entropy. Understanding various optimization algorithms like Gradient Descent, Stochastic Gradient Descent, RMSprop, and Adam. Understanding the concept of overfitting (where a model performs well on training data but poorly on unseen data) and learn various regularization techniques (dropout, L1/L2 regularization, early stopping, data augmentation) to prevent it.
+   - *Implementing MLPs:* Building a Multi Layer Perceptron, also known as a fully connected network, using PyTorch.
+   - *LLM Overview & LLM-OS:* 
 
+📚 **References:**  
+   - [The Spelled-out Intro to Neural Networks](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)  
+   - [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g&t=2750s)
+   - [The State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=8)
+<br><br>
 
 ## GenAI Scientists Path
 
