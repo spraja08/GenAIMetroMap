@@ -1,4 +1,4 @@
-![GenAI Learning Metromap](resources/GenAIMetromap.png)
+![GenAI Learning Metromap](resources/GenAIMetromap1.png)
 # GenAI Learning Metromap
 
 > Welcome to the GenAI Learning Metromap! Navigating the field of GenAI can often feel daunting due to the interconnected concepts that require prior understanding. This guide aims to streamline the learning journey by mapping out these dependencies, helping to minimize cognitive overload. While there are numerous ways to structure such a learning path, this approach has worked for me. If you have ideas for improvement or alternative perspectives, I welcome your [feedbacks](mailto:spraja08@gmail.com). 
