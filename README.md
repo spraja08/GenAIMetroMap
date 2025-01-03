@@ -49,7 +49,6 @@
 📚 **References:**  
    - There is only one source to go. Andrei Karpathy's God level contribution - [Neural Networks: Zero to Hero Playlist](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)  
 <br><br>
-
 5. <span style="color:green">**PRE-TRAINING**</span>
    - *Data Management:* Curating large datasets for quality and representation of input data. Understanding how it affects LLM's generalization. 
    - *Optimization Strategies:* Large-scale training optimizers(ex. AdamW, LAMB), Regularization methods (ex. LayerNorms, Weight Decay) and Stability techniques(ex. Gradient Clipping, loss scaling)
@@ -62,7 +61,6 @@
    - [TinyLlama by Zhang et al.](https://github.com/jzhang38/TinyLlama) How a Llama model is trained from scratch.
    - [Chinchilla's](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) Scaling laws and explain what they mean to LLMs in general.
 <br><br>
-
 6. <span style="color:green">**FINE-TUNING DATA PREPARATION**</span>
    - *Datasets/Syntheic:* High-quality datasets are essential for training. Synthetic datasets, created programmatically, are sometimes used to augment real datasets, especially when domain-specific data is scarce. 
    - *Filtering Data:* Filtering ensures the dataset quality by removing noise, duplicates, and irrelevant entries. Techniques include heuristics, model-based filtering, or crowd-sourcing evaluations to ensure that only meaningful data is used for fine-tuning.
