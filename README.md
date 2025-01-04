@@ -5,7 +5,7 @@
 
 ## Foundational
 
-### 1. MATH BASICS
+### 1. Math Basics
 
 * **Linear Algebra:** Crucial for understanding deep learning algorithms. Key concepts include vectors, matrices, determinants, eigenvalues and eigenvectors, vector spaces, and linear transformations
 * **Calculus:** Machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariate calculus and the concept of gradients are also important.
@@ -17,7 +17,7 @@
 * [And ofcourse, the quintessential "3Blue1Brown"](https://www.youtube.com/@3blue1brown)
 
 ---
-### 2. PROGRAMMING
+### 2. Programming
 * **Python Basics:** A good understanding of the basic syntax, data types, error handling, and object-oriented programming.
 * **Data Science Libraries:* Includes NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization.
 * **Data Pre-processing:** Feature scaling and normalization, handling missing data, outlier detection, categorical data encoding, and splitting data into training, validation, and test sets.
@@ -30,7 +30,7 @@
 * [Pytorch Tutorials](https://pytorch.org/tutorials/)
 
 ---
-### 3. NEURAL NETs & LLMs
+### 3. Neural Nets & LLMs
 * **Nueral Net Fundamentals:** Components of a neural network such as layers, weights, biases, and activation functions (sigmoid, tanh, ReLU, etc.)
 * **Training & Optimization:** Backpropagation and different types of loss functions, like Mean Squared Error (MSE) and Cross-Entropy. Understanding various optimization algorithms like Gradient Descent, Stochastic Gradient Descent, RMSprop, and Adam. Understanding the concept of overfitting (where a model performs well on training data but poorly on unseen data) and learn various regularization techniques (dropout, L1/L2 regularization, early stopping, data augmentation) to prevent it.
 * **Implementing MLPs:** Building a Multi Layer Perceptron, also known as a fully connected network, using PyTorch.
@@ -45,7 +45,7 @@
 ---
 ## GenAI Scientists Path
 
-## 4. LLM/SLM FOUNDATIONS
+## 4. LLM/SLM Foundations
 * **Multi-head Attention:** The attention mechanism allows a model to focus on relevant parts of the input sequence when predicting outputs. In Transformers, the Scaled Dot-Product Attention is the core mechanism, where each token attends to every other token in the sequence, weighted by learned relevance scores.
 * **Transformer Architecture:** The Transformer is a neural network architecture introduced in the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper. It relies entirely on the attention mechanism to draw global dependencies between input and output. It eliminates recurrence and convolutions, allowing for parallelization and scalability in deep learning.
 * **Output Sequence Generation:** In sequence-to-sequence tasks (e.g., language translation), the Transformer generates output tokens step-by-step using an autoregressive approach (predicting the next token based on previously generated tokens) or parallel decoding for some applications.
@@ -55,7 +55,7 @@
 * There is only one place to go - Andrei Karpathy's God level contribution: [Neural Networks: Zero to Hero Playlist](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 
 ---
-## 5. PRE-TRAINING
+## 5. Pre-Training
 * **Data Management:** Curating large datasets for quality and representation of input data. Understanding how it affects LLM's generalization. 
 * **Optimization Strategies:** Large-scale training optimizers(ex. AdamW, LAMB), Regularization methods (ex. LayerNorms, Weight Decay) and Stability techniques(ex. Gradient Clipping, loss scaling)
 * **Compute Scaling:** Scaling Law, Parallelism Techniques (model, data, pipelien parallelism) and efficiency techniques including Mixed Prevision, Gradient Checkpointing etc.
@@ -68,7 +68,7 @@
 * [Chinchilla's](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) Scaling laws and explain what they mean to LLMs in general.
 
 ---
-## 6. FINE-TUNING DATA PREPARATION
+## 6. Fine-Tuning Data Preparation
 * **Datasets/Synthetic:** High-quality datasets are essential for training. Synthetic datasets, created programmatically, are sometimes used to augment real datasets, especially when domain-specific data is scarce. 
 * **Filtering Data:** Filtering ensures the dataset quality by removing noise, duplicates, and irrelevant entries. Techniques include heuristics, model-based filtering, or crowd-sourcing evaluations to ensure that only meaningful data is used for fine-tuning.
 * **Prompt Templates:** Prompt templates are pre-designed input formats that help elicit desired responses from language models. These templates structure queries effectively and are critical in few-shot learning or instruction-following tasks.
@@ -79,7 +79,7 @@
 * [OpenAI Cookbook on Prompt Design](https://github.com/openai/openai-cookbook#prompts) Demonstrates how structured prompts improve fine-tuning outcomes, especially for instruction-based or few-shot learning tasks
 
 ---
-## 7. SUPERVISED FINE-TUNING
+## 7. Supervised Fine-Tuning
 * **Full Fine-Tuning:** Updating all model parameters on a labeled dataset to specialize the model for a specific task. This approach is computationally intensive but yields the best performance for high-resource tasks.
 * **LoRA, QLoRA:** LoRA (Low-Rank Adaptation) - Fine-tuning a smaller subset of parameters (low-rank matrices) while freezing most of the model, making it memory-efficient and faster. QLoRA (Quantized LoRA) - An enhancement of LoRA that uses quantization to reduce memory requirements further, enabling fine-tuning of large models on commodity hardware.
 * **Fine-Tuning Tools:** Frameworks and libraries that simplify the fine-tuning process by providing pre-built utilities for dataset loading, training loops, and evaluation. Hugging Face's [Parameter-Efficient Fine-Tuning](https://huggingface.co/docs/peft/en/index), [DeepSpeed](https://www.deepspeed.ai/), and [Accelerate](https://github.com/huggingface/accelerate)
@@ -92,7 +92,24 @@
 * [DeepSpeed and ZeRO Optimization Techniques](https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/) - Practical tips for scaling and optimizing training processes.
 
 ---
-## 8. ALIGNMENT
+## 8. Alignment
+
+Model alignment refers to the process of ensuring that the behavior of a large language model aligns with human values, goals, or specific preferences. Reinforcement Learning with Human Feedback (RLHF) is the broader framework that is used in tailoring the model's responses to be helpful, truthful, and safe, while avoiding undesirable behaviors.
+
+* **Constituitional AI:** A technique developed by Anthropic to align models with ethical principles without relying entirely on human feedback.Models are trained to critique and refine their own outputs based on predefined "constitutional" principles.
+* **Proximal Policy Optimization:** Optimizes the model’s policy to maximize the rewards, steering the model towards generating responses that align with human preferences.
+* **Direct Preference Optimization:** directly optimizes the model to prefer certain outputs over others, based on pairwise human-provided comparisons.
+  
+📚 **References:**  
+* [Fine-tune Mistral-7b with DPO](https://mlabonne.github.io/blog/posts/Fine_tune_Mistral_7b_with_DPO.html): Tutorial to fine-tune a Mistral-7b model with DPO and reproduce NeuralHermes-2.5.
+* [An Introduction to Training LLMs using RLHF](https://wandb.ai/ayush-thakur/Intro-RLAIF/reports/An-Introduction-to-Training-LLMs-Using-Reinforcement-Learning-From-Human-Feedback-RLHF---VmlldzozMzYyNjcy) - Explains why RLHF is desirable to reduce bias and increase performance in LLMs.
+* [Preference Tuning LLMs by Hugging Face](https://huggingface.co/blog/pref-tuning): Comparison of the DPO, IPO, and KTO algorithms to perform preference alignment.
+* [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf)
+* [DPO Github Repo by Hugging Face](https://github.com/huggingface/transformers/tree/main/examples/pytorch/direct_preference_optimization) - Practical examples and implementation of DPO in fine-tuning LLMs. Clear explanations of concepts and Python code.
+* [Collective Constitutional AI](https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input) - Anthropic blog on aligning a Language Model with public input
+
+---
+## 9. Evaluation
 
 Model alignment refers to the process of ensuring that the behavior of a large language model aligns with human values, goals, or specific preferences. Reinforcement Learning with Human Feedback (RLHF) is the broader framework that is used in tailoring the model's responses to be helpful, truthful, and safe, while avoiding undesirable behaviors.
 
