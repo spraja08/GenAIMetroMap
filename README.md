@@ -47,7 +47,7 @@
    - *Tokenization:* The process of breaking down input text into smaller units (tokens), such as words, subwords, or characters. Models like GPT and BERT use subword tokenization (e.g., Byte Pair Encoding or WordPiece) to handle unknown words and reduce vocabulary size.  
 
 📚 **References:**  
-   - There is only one source to go. Andrei Karpathy's God level contribution - [Neural Networks: Zero to Hero Playlist](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)  
+   - There is only one place to go - Andrei Karpathy's God level contribution: [Neural Networks: Zero to Hero Playlist](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 <br><br>
 5. <span style="color:green">**PRE-TRAINING**</span>
    - *Data Management:* Curating large datasets for quality and representation of input data. Understanding how it affects LLM's generalization. 
@@ -71,10 +71,20 @@
    - [Data-Centric AI by Andrew Ng](https://datacentricai.org/) Offers in-depth guidance on applying heuristics, model-based filtering, and other approaches to ensure dataset quality.
    - [OpenAI Cookbook on Prompt Design](https://github.com/openai/openai-cookbook#prompts) Demonstrates how structured prompts improve fine-tuning outcomes, especially for instruction-based or few-shot learning tasks
 <br><br>
-
+7. <span style="color:green">**SUPERVISED FINE-TUNING**</span>
+   - *Full Fine-Tuning:* Updating all model parameters on a labeled dataset to specialize the model for a specific task. This approach is computationally intensive but yields the best performance for high-resource tasks.
+   - *LoRA, QLoRA:* LoRA (Low-Rank Adaptation) - Fine-tuning a smaller subset of parameters (low-rank matrices) while freezing most of the model, making it memory-efficient and faster. QLoRA (Quantized LoRA) - An enhancement of LoRA that uses quantization to reduce memory requirements further, enabling fine-tuning of large models on commodity hardware.
+   - *Fine-Tuning Tools:* Frameworks and libraries that simplify the fine-tuning process by providing pre-built utilities for dataset loading, training loops, and evaluation. Hugging Face's [Parameter-Efficient Fine-Tuning](https://huggingface.co/docs/peft/en/index), [DeepSpeed](https://www.deepspeed.ai/), and [Accelerate](https://github.com/huggingface/accelerate)
+   - *Deep Learning Optimzation:* Techniques to enhance the efficiency and stability of the training process, such as adaptive optimizers (e.g., AdamW), learning rate schedules, gradient clipping, and distributed training strategies.
+  
+📚 **References:**  
+   - [The Ultimate Guide to Fine-Tuning](https://arxiv.org/html/2408.13296v1#Ch1.S5) An exhaustive review of technologies, research & best practices.  
+   - [The Hugging Face PEFT GitHub repository provides a straightforward way to get started with LoRA using Python code](https://github.com/huggingface/peft)
+   - [Customize models in Amazon Bedrock with your own data using fine-tuning and continued pre-training](https://aws.amazon.com/blogs/aws/customize-models-in-amazon-bedrock-with-your-own-data-using-fine-tuning-and-continued-pre-training/)
+   - [DeepSpeed and ZeRO Optimization Techniques](https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/): Practical tips for scaling and optimizing training processes.
+<br><br>
 
 ## GenAI Engineers Path
-
 - **Books**
   - "Artificial Intelligence: A Modern Approach" by Stuart Russell and Peter Norvig
   - "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
