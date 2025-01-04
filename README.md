@@ -83,8 +83,8 @@
    - [Customize models in Amazon Bedrock with your own data using fine-tuning and continued pre-training](https://aws.amazon.com/blogs/aws/customize-models-in-amazon-bedrock-with-your-own-data-using-fine-tuning-and-continued-pre-training/)
    - [DeepSpeed and ZeRO Optimization Techniques](https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/) - Practical tips for scaling and optimizing training processes.
 <br><br>
-8. <span style="color:green">**ALIGNMENT**</span><br>
-Model alignment refers to the process of ensuring that the behavior of a large language model aligns with human values, goals, or specific preferences. Reinforcement Learning with Human Feedback (RLHF) is the broader framework that is used in tailoring the model's responses to be helpful, truthful, and safe, while avoiding undesirable behaviors.
+8. <span style="color:green">**ALIGNMENT**</span><br><br>
+Model alignment refers to the process of ensuring that the behavior of a large language model aligns with human values, goals, or specific preferences. Reinforcement Learning with Human Feedback (RLHF) is the broader framework that is used in tailoring the model's responses to be helpful, truthful, and safe, while avoiding undesirable behaviors.<br>
    - *Constituitional AI:* A technique developed by Anthropic to align models with ethical principles without relying entirely on human feedback.Models are trained to critique and refine their own outputs based on predefined "constitutional" principles.
    - *Proximal Policy Optimization:* Optimizes the model’s policy to maximize the rewards, steering the model towards generating responses that align with human preferences.
    - *Direct Preference Optimization:* directly optimizes the model to prefer certain outputs over others, based on pairwise human-provided comparisons.
