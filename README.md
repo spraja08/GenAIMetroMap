@@ -79,9 +79,23 @@
   
 📚 **References:**  
    - [The Ultimate Guide to Fine-Tuning](https://arxiv.org/html/2408.13296v1#Ch1.S5) An exhaustive review of technologies, research & best practices.  
-   - [The Hugging Face PEFT GitHub repository provides a straightforward way to get started with LoRA using Python code](https://github.com/huggingface/peft)
+   - [The Hugging Face PEFT GitHub repository](https://github.com/huggingface/peft) provides a straightforward way to get started with LoRA using Python code
    - [Customize models in Amazon Bedrock with your own data using fine-tuning and continued pre-training](https://aws.amazon.com/blogs/aws/customize-models-in-amazon-bedrock-with-your-own-data-using-fine-tuning-and-continued-pre-training/)
-   - [DeepSpeed and ZeRO Optimization Techniques](https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/): Practical tips for scaling and optimizing training processes.
+   - [DeepSpeed and ZeRO Optimization Techniques](https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/) - Practical tips for scaling and optimizing training processes.
+<br><br>
+8. <span style="color:green">**ALIGNMENT**</span>
+Model alignment refers to the process of ensuring that the behavior of a large language model aligns with human values, goals, or specific preferences. Reinforcement Learning with Human Feedback (RLHF) is the broader framework that is used in tailoring the model's responses to be helpful, truthful, and safe, while avoiding undesirable behaviors.
+   - *Constituitional AI:* A technique developed by Anthropic to align models with ethical principles without relying entirely on human feedback.Models are trained to critique and refine their own outputs based on predefined "constitutional" principles.
+   - *Proximal Policy Optimization:* Optimizes the model’s policy to maximize the rewards, steering the model towards generating responses that align with human preferences.
+   - *Direct Preference Optimization:* directly optimizes the model to prefer certain outputs over others, based on pairwise human-provided comparisons.
+  
+📚 **References:**  
+   - [Fine-tune Mistral-7b with DPO](https://mlabonne.github.io/blog/posts/Fine_tune_Mistral_7b_with_DPO.html): Tutorial to fine-tune a Mistral-7b model with DPO and reproduce NeuralHermes-2.5.
+   - [An Introduction to Training LLMs using RLHF](https://wandb.ai/ayush-thakur/Intro-RLAIF/reports/An-Introduction-to-Training-LLMs-Using-Reinforcement-Learning-From-Human-Feedback-RLHF---VmlldzozMzYyNjcy) - Explains why RLHF is desirable to reduce bias and increase performance in LLMs.
+   - [Preference Tuning LLMs by Hugging Face](https://huggingface.co/blog/pref-tuning): Comparison of the DPO, IPO, and KTO algorithms to perform preference alignment.
+   - [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf)
+   - [DPO Github Repo by Hugging Face](https://github.com/huggingface/transformers/tree/main/examples/pytorch/direct_preference_optimization) - Practical examples and implementation of DPO in fine-tuning LLMs. Clear explanations of concepts and Python code.
+   - [Collective Constitutional AI](https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input) - Anthropic blog on aligning a Language Model with public input
 <br><br>
 
 ## GenAI Engineers Path
