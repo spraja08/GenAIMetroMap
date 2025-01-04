@@ -5,16 +5,17 @@
 
 ## Foundational
 
-1. <span style="color:green">**MATH BASICS**</span>
-   - *Linear Algebra:* Crucial for understanding deep learning algorithms. Key concepts include vectors, matrices, determinants, eigenvalues and eigenvectors, vector spaces, and linear transformations
-   - *Calculus:* Machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariate calculus and the concept of gradients are also important.
-   - *Probability and Statistics:* For understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
+### 1. MATH BASICS
+* **Linear Algebra:** Crucial for understanding deep learning algorithms. Key concepts include vectors, matrices, determinants, eigenvalues and eigenvectors, vector spaces, and linear transformations
+* **Calculus:** Machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariate calculus and the concept of gradients are also important.
+* **Probability and Statistics:** For understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
 
 📚 **References:**  
-- [Why Machines Learn: The Elegant Math Behind Modern AI](https://a.co/d/3IKwY5X)<sup>BOOK</sup>
-- [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
-- [And ofcourse, the quintessential "3Blue1Brown"](https://www.youtube.com/@3blue1brown)
-<br><br>
+* [Why Machines Learn: The Elegant Math Behind Modern AI](https://a.co/d/3IKwY5X)<sup>BOOK</sup>
+* [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
+* [And ofcourse, the quintessential "3Blue1Brown"](https://www.youtube.com/@3blue1brown)
+
+---
 2. <span style="color:green">**PROGRAMMING**</span>
    - *Python Basics:* A good understanding of the basic syntax, data types, error handling, and object-oriented programming.
    - *Data Science Libraries:* Includes NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization.
