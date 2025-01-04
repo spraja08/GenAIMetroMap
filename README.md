@@ -7,6 +7,8 @@
 
 ### 1. Math Basics
 
+The core mathematical foundations that power modern AI systems and the concepts required for understanding neural network architectures, optimization algorithms, and probabilistic modeling in machine learning.
+
 * **Linear Algebra:** Crucial for understanding deep learning algorithms. Key concepts include vectors, matrices, determinants, eigenvalues and eigenvectors, vector spaces, and linear transformations
 * **Calculus:** Machine learning algorithms involve the optimization of continuous functions, which requires an understanding of derivatives, integrals, limits, and series. Multivariate calculus and the concept of gradients are also important.
 * **Probability and Statistics:** For understanding how models learn from data and make predictions. Key concepts include probability theory, random variables, probability distributions, expectations, variance, covariance, correlation, hypothesis testing, confidence intervals, maximum likelihood estimation, and Bayesian inference.
@@ -18,6 +20,9 @@
 
 ---
 ### 2. Programming
+
+Develop hands-on expertise with Python and its data science ecosystem, including skills in data manipulation, visualization, and implementation of machine learning algorithms using industry-standard libraries and frameworks.
+
 * **Python Basics:** A good understanding of the basic syntax, data types, error handling, and object-oriented programming.
 * **Data Science Libraries:* Includes NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization.
 * **Data Pre-processing:** Feature scaling and normalization, handling missing data, outlier detection, categorical data encoding, and splitting data into training, validation, and test sets.
@@ -31,6 +36,9 @@
 
 ---
 ### 3. Neural Nets & LLMs
+
+Dive into the architecture and mechanics of neural networks and Large Language Models. This section bridges the gap between traditional neural networks and modern transformer-based architectures, providing insights into their training and optimization.
+
 * **Nueral Net Fundamentals:** Components of a neural network such as layers, weights, biases, and activation functions (sigmoid, tanh, ReLU, etc.)
 * **Training & Optimization:** Backpropagation and different types of loss functions, like Mean Squared Error (MSE) and Cross-Entropy. Understanding various optimization algorithms like Gradient Descent, Stochastic Gradient Descent, RMSprop, and Adam. Understanding the concept of overfitting (where a model performs well on training data but poorly on unseen data) and learn various regularization techniques (dropout, L1/L2 regularization, early stopping, data augmentation) to prevent it.
 * **Implementing MLPs:** Building a Multi Layer Perceptron, also known as a fully connected network, using PyTorch.
@@ -46,6 +54,9 @@
 ## GenAI Scientists Path
 
 ### 4. LLM/SLM Foundations
+
+Explore the core components that make Large Language Models work, from attention mechanisms to transformer architectures, the internal workings of modern language models and their sequence processing capabilities.
+
 * **Multi-head Attention:** The attention mechanism allows a model to focus on relevant parts of the input sequence when predicting outputs. In Transformers, the Scaled Dot-Product Attention is the core mechanism, where each token attends to every other token in the sequence, weighted by learned relevance scores.
 * **Transformer Architecture:** The Transformer is a neural network architecture introduced in the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper. It relies entirely on the attention mechanism to draw global dependencies between input and output. It eliminates recurrence and convolutions, allowing for parallelization and scalability in deep learning.
 * **Output Sequence Generation:** In sequence-to-sequence tasks (e.g., language translation), the Transformer generates output tokens step-by-step using an autoregressive approach (predicting the next token based on previously generated tokens) or parallel decoding for some applications.
@@ -56,6 +67,9 @@
 
 ---
 ### 5. Pre-Training
+
+The techniques for training large language models from scratch, including data management, optimization strategies, and compute scaling. This section covers the critical aspects of building and training foundation models efficiently.
+
 * **Data Management:** Curating large datasets for quality and representation of input data. Understanding how it affects LLM's generalization. 
 * **Optimization Strategies:** Large-scale training optimizers(ex. AdamW, LAMB), Regularization methods (ex. LayerNorms, Weight Decay) and Stability techniques(ex. Gradient Clipping, loss scaling)
 * **Compute Scaling:** Scaling Law, Parallelism Techniques (model, data, pipelien parallelism) and efficiency techniques including Mixed Prevision, Gradient Checkpointing etc.
@@ -69,6 +83,9 @@
 
 ---
 ### 6. Fine-Tuning Data Preparation
+
+The art of preparing high-quality datasets for model fine-tuning, including data filtering, synthetic data generation, and prompt engineering. This section focuses on the crucial data preparation steps that determine model performance.
+
 * **Datasets/Synthetic:** High-quality datasets are essential for training. Synthetic datasets, created programmatically, are sometimes used to augment real datasets, especially when domain-specific data is scarce. 
 * **Filtering Data:** Filtering ensures the dataset quality by removing noise, duplicates, and irrelevant entries. Techniques include heuristics, model-based filtering, or crowd-sourcing evaluations to ensure that only meaningful data is used for fine-tuning.
 * **Prompt Templates:** Prompt templates are pre-designed input formats that help elicit desired responses from language models. These templates structure queries effectively and are critical in few-shot learning or instruction-following tasks.
@@ -80,6 +97,9 @@
 
 ---
 ### 7. Supervised Fine-Tuning
+
+Advanced techniques for adapting pre-trained models to specific tasks, from full fine-tuning to efficient methods like LoRA and QLoRA. This section covers practical approaches to model adaptation while managing computational resources.
+
 * **Full Fine-Tuning:** Updating all model parameters on a labeled dataset to specialize the model for a specific task. This approach is computationally intensive but yields the best performance for high-resource tasks.
 * **LoRA, QLoRA:** LoRA (Low-Rank Adaptation) - Fine-tuning a smaller subset of parameters (low-rank matrices) while freezing most of the model, making it memory-efficient and faster. QLoRA (Quantized LoRA) - An enhancement of LoRA that uses quantization to reduce memory requirements further, enabling fine-tuning of large models on commodity hardware.
 * **Fine-Tuning Tools:** Frameworks and libraries that simplify the fine-tuning process by providing pre-built utilities for dataset loading, training loops, and evaluation. Hugging Face's [Parameter-Efficient Fine-Tuning](https://huggingface.co/docs/peft/en/index), [DeepSpeed](https://www.deepspeed.ai/), and [Accelerate](https://github.com/huggingface/accelerate)
@@ -93,6 +113,8 @@
 
 ---
 ### 8. Alignment
+
+Understand the methods for aligning language models with human values and specific objectives. This section covers techniques like RLHF, Constitutional AI, and preference optimization to ensure models generate helpful and appropriate responses.
 
 Model alignment refers to the process of ensuring that the behavior of a large language model aligns with human values, goals, or specific preferences. Reinforcement Learning with Human Feedback (RLHF) is the broader framework that is used in tailoring the model's responses to be helpful, truthful, and safe, while avoiding undesirable behaviors.
 
@@ -110,6 +132,8 @@ Model alignment refers to the process of ensuring that the behavior of a large l
 
 ---
 ### 9. Evaluation
+
+The metrics and methodologies for assessing language model performance, from traditional benchmarks to human evaluation frameworks.
 
 * **Metrics**: Metrics like perplexity and BLEU score are not as popular as they were because they're flawed in most contexts. It is still important to understand them and when they can be applied.
 * **General benchmarks**: Based on the [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness), the [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) is the main benchmark for general-purpose LLMs (like ChatGPT). There are other popular benchmarks like [BigBench](https://github.com/google/BIG-bench), [MT-Bench](https://arxiv.org/abs/2306.05685), etc.
