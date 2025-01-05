@@ -3,7 +3,7 @@
 
 > Welcome to the GenAI Learning Metromap! Navigating the field of GenAI can often feel daunting due to the interconnected concepts that require prior understanding. This guide aims to streamline the learning journey by mapping out these dependencies, helping to minimize cognitive overload. While there are numerous ways to structure such a learning path, this approach has worked for me. If you have ideas for improvement or alternative perspectives, I welcome your [feedbacks](mailto:spraja08@gmail.com). 
 
-This learning map is divided into three parts:
+This learning map covers three paths:
 
 1. 📐 **Foundational** - the knowledge needed for everyone including mathematics, Python, and neural networks.
 2. 🧑‍🔬 **The GenAI Scientists Path** focuses on understanding, building and customising LLMs.
