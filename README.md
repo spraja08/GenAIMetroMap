@@ -1,4 +1,4 @@
-![GenAI Learning Metromap](resources/GenAIMetromap3.png)
+![GenAI Learning Metromap](resources/GenAIMetromap4.png)
 # GenAI Learning Metromap
 
 > Welcome to the GenAI Learning Metromap! Navigating the field of GenAI can often feel daunting due to the interconnected concepts that require prior understanding. This guide aims to streamline the learning journey by mapping out these dependencies, helping to minimize cognitive overload. While there are numerous ways to structure such a learning path, this approach has worked for me. If you have ideas for improvement or alternative perspectives, I welcome your [feedbacks](mailto:spraja08@gmail.com). 
@@ -275,9 +275,45 @@ Optimization techniques that primarily optimizes memory usage, computational eff
 📚 **References**:
 * [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) - Original paper introducing Flash Attention
 * [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://github.com/vllm-project/vllm) - Implementation of efficient attention mechanisms
-* [Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads](https://github.com/FasterDecoding/Medusa) - Advanced implementation of speculative decoding
 * [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) - Hugging Face's optimized inference server
 * [Fast Transformer Inference with Better Attention](https://pytorch.org/blog/better-transformer-inference/) - PyTorch's guide to optimized transformer inference
+
+---
+### 17. Deploying LLMs
+
+* **Local Deployment:** Techniques for deploying LLMs on local machines, including CPU and GPU optimizations, memory management, and containerization. Understanding hardware requirements, model quantization, and local inference servers for optimal performance.
+
+* **Demo Deployment:** Methods for quickly deploying LLM applications for demonstration purposes using platforms like Hugging Face Spaces, Streamlit, or Gradio. These platforms offer easy-to-use interfaces for showcasing LLM capabilities with minimal setup.
+
+* **Server Deployment:** Strategies for deploying LLMs in production environments using cloud services or on-premises infrastructure. Includes load balancing, auto-scaling, monitoring, and high-availability configurations for reliable service delivery.
+
+* **Edge Deployment:** Techniques for deploying optimized LLMs on edge devices with limited resources. Focuses on model compression, efficient inference, and device-specific optimizations for mobile phones, IoT devices, and embedded systems.
+
+📚 **References**:
+* [vLLM Production Deployment Guide](https://docs.vllm.ai/en/latest/serving/deploying_with_kubernetes.html) - Comprehensive guide for deploying LLMs at scale
+* [Gradio Documentation](https://www.gradio.app/docs/interface) - Framework for creating demo interfaces for ML models
+* [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA's toolkit for optimizing LLM inference
+* [AWS SageMaker Deployment Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html) - Best practices for deploying ML models in production
+* [TinyLLM: Edge Deployment of LLMs](https://github.com/jzhang38/TinyLlama) - Guide to deploying compact LLMs on edge devices
+
+---
+### 18. Securing LLMs
+
+* **Prompt Injection:** Malicious inputs designed to manipulate LLM behavior by bypassing safety measures. Attackers craft prompts that trick the model into performing unintended actions or revealing sensitive information.
+
+* **Adversarial Attacks:** Carefully crafted inputs that cause the model to produce incorrect or harmful outputs. These can exploit model vulnerabilities to generate misleading or inappropriate responses.
+
+* **Jailbreaking:** Methods to bypass model safety measures and restrictions. Attackers use creative prompting techniques to make models generate content that violates their intended constraints.
+
+* **RLHF Attacks:** Exploits targeting the reinforcement learning from human feedback mechanism. These attacks aim to manipulate the model's learned preferences and alignment.
+
+📚 **References**:
+* [LLM Security: Understanding and Mitigating Security Risks](https://arxiv.org/abs/2310.11414) - Comprehensive overview of LLM security challenges and defenses
+* [Prompt Injection Attacks and Defenses](https://www.microsoft.com/en-us/security/blog/2024/01/23/prompt-injection-attacks-and-defenses-in-llm-based-applications/) - Microsoft's guide to understanding and preventing prompt injection
+* [Adversarial Machine Learning in LLMs](https://github.com/microsoft/adversarial-machine-learning-llm) - Microsoft's collection of resources on adversarial attacks
+* [Red Teaming Language Models](https://huggingface.co/blog/red-teaming) - Hugging Face's guide to testing LLM security
+* [Constitutional AI: A Guide to Safe LLM Development](https://www.anthropic.com/index/constitutional-ai-the-next-step) - Anthropic's approach to building safer AI systems
+
 ---
 
 Happy learning!
