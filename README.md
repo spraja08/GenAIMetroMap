@@ -5,8 +5,8 @@
 
 This learning map is divided into three parts:
 
-1. 🧩 **Foundational** covers common knowledge needed for everyone including mathematics, Python, and neural networks.
-2. 🧑‍🔬 **The GenAI Scientists Path** focuses on understanding, building and customising LLMs using the best practices.
+1. 📐 **Foundational** - the knowledge needed for everyone including mathematics, Python, and neural networks.
+2. 🧑‍🔬 **The GenAI Scientists Path** focuses on understanding, building and customising LLMs.
 3. 👷 **The GenAI Engineers Path** focuses on creating LLM-based applications, deploying and operating them.
 
 ## Foundational
