@@ -6,8 +6,8 @@
 This learning map covers three paths:
 
 1. 📐 **Foundational** - the knowledge needed for everyone including mathematics, Python, and neural networks.
-2. 🧑‍🔬 **The GenAI Scientists Path** focuses on understanding, building and customising LLMs.
-3. 👷 **The GenAI Engineers Path** focuses on creating LLM-based applications, deploying and operating them.
+2. 🧑‍🔬 **The GenAI Scientists Path** - focuses on understanding, building and customising LLMs.
+3. 👷 **The GenAI Engineers Path** - focuses on creating LLM-based applications, deploying and operating them.
 
 ## Foundational
 
@@ -186,25 +186,98 @@ Optimization techniques that primarily optimizes memory usage, computational eff
 
 📚 **References**:
 * [A Beginner's Guide to Hybrid AI Systems](https://www.restack.io/p/hybrid-ai-architectures-answer-beginners-guide-hybrid-ai-systems-cat-ai)
-*[Large Concept Models (LCMs) by Meta: The Era of AI After LLMs](https://aipapersacademy.com/large-concept-models/)
+* [Large Concept Models (LCMs) by Meta: The Era of AI After LLMs](https://aipapersacademy.com/large-concept-models/)
 * [Explainable Generative AI (GenXAI): A Survey, Conceptualization, and Research Agenda](https://arxiv.org/abs/2404.09554)
 * [Interpretable Machine Learning - Christoph Molnar](https://books.google.com.sg/books/about/Interpretable_Machine_Learning.html?id=jBm3DwAAQBAJ&redir_esc=y)
 * [InstructGraph](https://aclanthology.org/2024.findings-acl.801.pdf) - Boosting Large Language Models via Graph-centric
 
 ---
 ## GenAI Engineers Path
-- **Books**
-  - "Artificial Intelligence: A Modern Approach" by Stuart Russell and Peter Norvig
-  - "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
 
-- **Online Courses**
-  - Coursera
-  - edX
-  - Udacity
+### 12. Consuming LLMs 
 
-- **Communities**
-  - AI Conferences (NeurIPS, ICML, CVPR)
-  - Online Forums (Reddit, Stack Overflow)
-  - Local Meetups and Workshops
+* **LLM APIs:** Understanding and integrating commercial LLM services like OpenAI, Anthropic, and cloud providers' APIs. Learn about authentication, rate limiting, error handling, and cost optimization strategies for production deployments.
+
+* **Open Source LLMs:** Exploring self-hosted models like Llama, Mistral, and Falcon. Understanding deployment options, hardware requirements, and trade-offs between model sizes and capabilities for local or private cloud deployments.
+
+* **Prompt Engineering:** Mastering techniques for crafting effective prompts including few-shot learning, chain-of-thought prompting, and system prompts. Learn best practices for consistent and reliable model outputs.
+
+* **Structuring Outputs:** Techniques for controlling model responses through output parsers, JSON schemas, and structured prompts. Understanding methods to extract specific data formats and maintain consistent response structures.
+
+📚 **References**:
+* [OpenAI API Documentation](https://platform.openai.com/docs/introduction) - Comprehensive guide to using OpenAI's API services
+* [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction) - Framework for developing applications with LLMs
+* [Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive resource for prompt engineering techniques
+* [Text Generation Inference](https://huggingface.co/docs/text-generation-inference/index) - Hugging Face's production-ready inference solution
+* [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/) - Framework for building LLM applications over custom data
+
+---
+### 13. Building Vector Store 
+
+* **Chunking Methods:** Techniques for breaking down documents into meaningful segments for vector storage. Includes text splitting strategies like fixed-length chunks, sentence-based splits, and semantic chunking to optimize retrieval effectiveness.
+
+* **Indexing Schemes:** Algorithms and data structures for efficient vector similarity search. Understanding approaches like HNSW (Hierarchical Navigable Small World), IVF (Inverted File Index), and LSH (Locality-Sensitive Hashing) for scalable nearest neighbor search.
+
+* **Embedding Models:** Understanding and selecting appropriate embedding models for converting text to vectors. Includes domain-specific models, multilingual capabilities, and techniques for optimizing embedding quality and computational efficiency.
+
+* **Vector Databases:** Exploring vector database solutions like Pinecone, Weaviate, and Milvus. Understanding their architectures, querying capabilities, scaling considerations, and integration patterns with LLM applications.
+
+📚 **References**:
+* [LlamaIndex Guide to Text Chunking](https://docs.llamaindex.ai/en/stable/understanding/putting_it_all_together/chunking.html) - Comprehensive overview of text chunking strategies
+* [Understanding HNSW Algorithm](https://www.pinecone.io/learn/series/faiss/hnsw/) - Deep dive into the HNSW indexing algorithm
+* [Sentence Transformers Documentation](https://www.sbert.net/) - Guide to state-of-the-art embedding models
+* [Vector Database Comparison](https://www.pinecone.io/learn/vector-database-comparison/) - Detailed comparison of popular vector databases
+* [Weaviate Learning Center](https://weaviate.io/developers/weaviate) - Practical guides for implementing vector search
+
+---
+### 14. Retrieval Augmented Generation (RAG)
+
+* **Orchestrators:** Frameworks like LangChain and LlamaIndex that coordinate the RAG pipeline, managing document processing, retrieval, and LLM interactions. These tools provide abstractions for building complex RAG applications with features like caching, error handling, and monitoring.
+
+* **Retrievers:** Components that fetch relevant information from vector stores using similarity search, hybrid search, or re-ranking techniques. Advanced retrievers may use techniques like query expansion, contextual compression, or multi-step retrieval to improve result quality.
+
+* **Memory:** Systems for maintaining conversation history and managing context windows in RAG applications. Includes short-term memory for ongoing conversations and long-term memory for persistent knowledge across sessions.
+
+* **RAG Evaluation:** Methods for assessing RAG system performance including retrieval accuracy, answer relevance, and faithfulness to source documents. Metrics like RAGAS help evaluate context relevance, answer faithfulness, and overall response quality.
+
+📚 **References**:
+* [RAG vs Fine-tuning](https://blog.langchain.dev/rag-vs-finetuning/) - Comprehensive comparison of RAG and fine-tuning approaches
+* [Advanced RAG Techniques](https://www.pinecone.io/learn/advanced-rag/) - Deep dive into sophisticated retrieval methods
+* [RAGAS: RAG Assessment Framework](https://github.com/explodinggradients/ragas) - Framework for evaluating RAG systems
+* [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/) - Practical guide to building RAG applications
+* [Parent Document Retrieval](https://www.llamaindex.ai/blog/parent-child-retrieval) - Advanced retrieval techniques for hierarchical documents
+
+---
+### 15. Advanced GenAI Apps
+
+* **Query Construction:** Techniques for dynamically building and optimizing prompts based on user input and context. Includes methods for query decomposition, reformulation, and contextual enhancement to improve response quality and relevance.
+
+* **Agentic AI Apps:** Applications that use LLMs as autonomous agents capable of planning and executing multi-step tasks. Involves tools like AutoGPT and Amazon Bedrock Agents for goal-oriented problem solving, task decomposition, and self-improvement through recursive refinement.
+
+* **Guardrails:** Implementation of safety measures and control mechanisms in GenAI applications. Includes content filtering, output validation, ethical constraints, and monitoring systems to ensure responsible and controlled AI behavior.
+
+📚 **References**:
+* [LangChain Expression Language](https://python.langchain.com/docs/expression_language/get_started) - Framework for dynamic prompt construction
+* [AutoGPT: An Autonomous GPT-4 Experiment](https://github.com/Significant-Gravitas/AutoGPT) - Popular framework for building autonomous AI agents
+* [NeMo Guardrails Documentation](https://github.com/NVIDIA/NeMo-Guardrails) - Comprehensive toolkit for implementing AI safety measures
+* [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - Framework for building reasoning agents
+* [Amazon Bedrock Multi-agent Collaboration](https://aws.amazon.com/blogs/aws/introducing-multi-agent-collaboration-capability-for-amazon-bedrock/)
+
+---
+### 16. Inference Optimization
+
+* **Flash Attention:** A memory-efficient attention algorithm that reduces memory usage and increases speed by tiling attention computation. It optimizes memory access patterns and achieves better hardware utilization, making it particularly effective for training and inference of large language models.
+
+* **Key-Value Cache:** A technique that stores previously computed key and value tensors from the attention mechanism to avoid redundant computations during autoregressive generation. This optimization significantly speeds up inference by reusing intermediate results across generation steps.
+
+* **Speculative Decoding:** An inference optimization method that uses a smaller, faster model to predict multiple tokens in parallel, which are then verified by the main model. This approach can significantly reduce the latency of text generation by parallelizing what is typically a sequential process.
+
+📚 **References**:
+* [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) - Original paper introducing Flash Attention
+* [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://github.com/vllm-project/vllm) - Implementation of efficient attention mechanisms
+* [Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads](https://github.com/FasterDecoding/Medusa) - Advanced implementation of speculative decoding
+* [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) - Hugging Face's optimized inference server
+* [Fast Transformer Inference with Better Attention](https://pytorch.org/blog/better-transformer-inference/) - PyTorch's guide to optimized transformer inference
+---
 
 Happy learning!
