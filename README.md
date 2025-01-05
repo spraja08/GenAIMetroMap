@@ -1,4 +1,4 @@
-![GenAI Learning Metromap](resources/GenAIMetromap2.png)
+![GenAI Learning Metromap](resources/GenAIMetromap3.png)
 # GenAI Learning Metromap
 
 > Welcome to the GenAI Learning Metromap! Navigating the field of GenAI can often feel daunting due to the interconnected concepts that require prior understanding. This guide aims to streamline the learning journey by mapping out these dependencies, helping to minimize cognitive overload. While there are numerous ways to structure such a learning path, this approach has worked for me. If you have ideas for improvement or alternative perspectives, I welcome your [feedbacks](mailto:spraja08@gmail.com). 
@@ -24,8 +24,8 @@ The core mathematical foundations that power modern AI systems and the concepts 
 Develop hands-on expertise with Python and its data science ecosystem, including skills in data manipulation, visualization, and implementation of machine learning algorithms using industry-standard libraries and frameworks.
 
 * **Python Basics:** A good understanding of the basic syntax, data types, error handling, and object-oriented programming.
-* **Data Science Libraries:* Includes NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization.
-* **Data Pre-processing:** Feature scaling and normalization, handling missing data, outlier detection, categorical data encoding, and splitting data into training, validation, and test sets.
+* **Data Science Libraries:** Includes NumPy for numerical operations, Pandas for data manipulation and analysis, Matplotlib and Seaborn for data visualization.
+* **Data Pre-Processing:** Feature scaling and normalization, handling missing data, outlier detection, categorical data encoding, and splitting data into training, validation, and test sets.
 * **Machine Learning Libraries:** Scikit for traditional ML algos and Pytorch for Deeplearning. Understanding how to implement algorithms like linear regression, logistic regression, decision trees, random forests, k-nearest neighbours (K-NN), and K-means clustering is important. Dimensionality reduction techniques like PCA and t-SNE are also helpful for visualizing high-dimensional data
 
 📚 **References:**  
@@ -145,6 +145,45 @@ The metrics and methodologies for assessing language model performance, from tra
 * [BLEU at your own risk](https://towardsdatascience.com/evaluating-text-output-in-nlp-bleu-at-your-own-risk-e8609665a213) by Rachael Tatman: Overview of the BLEU score and its many issues with examples.
 * [A Survey on Evaluation of LLMs](https://arxiv.org/abs/2307.03109) by Chang et al.: Comprehensive paper about what to evaluate, where to evaluate, and how to evaluate.
 * [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) by lmsys: Elo rating of general-purpose LLMs, based on comparisons made by humans.
+
+---
+### 10. Optimization
+
+Optimization techniques that primarily optimizes memory usage, computational efficiency, and energy consumption. It is a critical method for deploying large models in resource-constrained environments and for scaling inference workloads efficiently.
+
+* **Naive Quantization**: A basic form of model compression that uniformly reduces the numerical precision of all model weights (e.g., from 32-bit floating point to 8-bit integers) without considering the impact on model performance. While simple to implement, this approach can lead to significant accuracy degradation as it doesn't account for the varying sensitivity of different model components.
+
+* **Quantization for CPUs**: A specialized quantization technique optimized for CPU inference that typically uses 8-bit integer (INT8) quantization. This approach includes careful calibration of scaling factors and zero points for each tensor, often utilizing techniques like per-channel quantization and dynamic range adjustment to maintain accuracy while leveraging CPU-specific optimizations.
+
+* **Quantization for GPUs**: A GPU-specific quantization approach that focuses on maintaining computational efficiency while preserving model accuracy. It often employs techniques like FP16 (half-precision) or INT8 quantization with GPU-optimized kernels, and may include features like tensor core utilization and mixed-precision training to balance performance and accuracy.
+
+* **Attention Aware Quantization**: A sophisticated quantization strategy that specifically targets attention mechanisms in transformer models. This method applies different quantization schemes to attention-related computations versus other model components, recognizing that attention layers are particularly sensitive to precision reduction. It often preserves higher precision for key attention operations while allowing more aggressive quantization elsewhere.
+
+* **Distillation**: A model compression technique where a smaller model (student) is trained to mimic the behavior of a larger model (teacher). The student learns not just from the final outputs but also from the teacher's intermediate representations and attention patterns. This approach can significantly reduce model size while maintaining much of the original model's performance, making it particularly valuable for deployment in resource-constrained environments.
+
+📚 **References**:
+* [Introduction to Model Quantization](https://pytorch.org/blog/introduction-to-quantization-on-pytorch/) by PyTorch: Clear explanation of quantization basics with code examples.
+* [4-bit LLM Quantization with GPTQ](https://mlabonne.github.io/blog/posts/4_bit_Quantization_with_GPTQ.html): Tutorial on how to quantize an LLM using the GPTQ algorithm with AutoGPTQ.
+* [Understanding Activation-Aware Weight Quantization](https://medium.com/friendliai/understanding-activation-aware-weight-quantization-awq-boosting-inference-serving-efficiency-in-10bb0faf63a8) by FriendliAI: Overview of the AWQ technique and its benefits.
+* [Amazon Bedrock Model Distillation](https://www.youtube.com/watch?v=G4DnZKIlhaA)<SUP>VIDEO</SUP>
+
+---
+### 11. Emerging Trends
+
+* **Hybrid AI Systems:** Hybrid AI systems combine different types of artificial intelligence, such as deep learning and symbolic reasoning. This integration aims to enhance problem-solving capabilities by leveraging the strengths of various AI approaches. For instance, combining large language models (LLMs) with knowledge graphs can lead to more effective decision-making and reasoning processes, particularly in complex fields like healthcare and finance
+
+* **Large Concept Models:** LCMs focus on processing concepts rather than tokens. This approach allows for more sophisticated reasoning and understanding by treating entire sentences as semantic units, enabling models to operate in a language-independent and multimodal manner
+
+* **GenXAI:** Explainable GenAI (GenXAI) is a field that focusses on exploring how models represent knowledge and to provide human understandable explanations for model's outputs and decisions. The key technics include Mechanistic Interpretability, Feature Attribution, Probing-Based and Sample-Based.
+
+* **Instruct Graph:** Focuses on enhancing LLMs with graph-centric approaches, aiming to improve their performance on graph reasoning and generation tasks. This involves using structured formats to bridge the gap between textual and graph data
+
+📚 **References**:
+* [A Beginner's Guide to Hybrid AI Systems](https://www.restack.io/p/hybrid-ai-architectures-answer-beginners-guide-hybrid-ai-systems-cat-ai)
+*[Large Concept Models (LCMs) by Meta: The Era of AI After LLMs](https://aipapersacademy.com/large-concept-models/)
+* [Explainable Generative AI (GenXAI): A Survey, Conceptualization, and Research Agenda](https://arxiv.org/abs/2404.09554)
+* [Interpretable Machine Learning - Christoph Molnar](https://books.google.com.sg/books/about/Interpretable_Machine_Learning.html?id=jBm3DwAAQBAJ&redir_esc=y)
+* [InstructGraph](https://aclanthology.org/2024.findings-acl.801.pdf) - Boosting Large Language Models via Graph-centric
 
 ---
 ## GenAI Engineers Path
