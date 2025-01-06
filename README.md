@@ -5,7 +5,7 @@
 
 This learning map covers three paths:
 
-1. 📐 **[Foundational](#foundational)** - the knowledge needed for everyone including mathematics, Programming, and neural networks.
+1. 📐 **[Foundational](#foundational)** - the knowledge needed for everyone including Mathematics, Programming, and Neural Networks.
 2. 🧑‍🔬 **[The GenAI Scientists Path](#genai-scientists-path)** - focuses on understanding, building and customising LLMs.
 3. 👷 **[The GenAI Engineers Path](#genai-engineers-path)** - focuses on creating LLM-based applications, deploying and operating them.
 
