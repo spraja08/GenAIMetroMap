@@ -205,6 +205,7 @@ Optimization techniques that primarily optimizes memory usage, computational eff
 * **Structuring Outputs:** Techniques for controlling model responses through output parsers, JSON schemas, and structured prompts. Understanding methods to extract specific data formats and maintain consistent response structures.
 
 📚 **References**:
+* [Amazon Bedrock References on Generation](https://github.com/aws-samples/amazon-bedrock-workshop/tree/main/01_Text_generation) - Generate text, code, summaries, Q/A, entity extraction using LLMs on Amazon Bedrock by using the Bedrock API
 * [OpenAI API Documentation](https://platform.openai.com/docs/introduction) - Comprehensive guide to using OpenAI's API services
 * [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction) - Framework for developing applications with LLMs
 * [Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive resource for prompt engineering techniques
@@ -241,6 +242,8 @@ Optimization techniques that primarily optimizes memory usage, computational eff
 * **RAG Evaluation:** Methods for assessing RAG system performance including retrieval accuracy, answer relevance, and faithfulness to source documents. Metrics like RAGAS help evaluate context relevance, answer faithfulness, and overall response quality.
 
 📚 **References**:
+* [Amazon Bedrock References for Building RAG Workflows](https://github.com/aws-samples/amazon-bedrock-workshop/tree/main/02_KnowledgeBases_and_RAG) 
+* [RAG vs Fine-tuning](https://blog.langchain.dev/rag-vs-finetuning/) - Comprehensive comparison of RAG and fine-tuning approaches
 * [RAG vs Fine-tuning](https://blog.langchain.dev/rag-vs-finetuning/) - Comprehensive comparison of RAG and fine-tuning approaches
 * [Advanced RAG Techniques](https://www.pinecone.io/learn/advanced-rag/) - Deep dive into sophisticated retrieval methods
 * [RAGAS: RAG Assessment Framework](https://github.com/explodinggradients/ragas) - Framework for evaluating RAG systems
