@@ -293,7 +293,7 @@ Optimization techniques that primarily optimizes memory usage, computational eff
 * **Edge Deployment:** Techniques for deploying optimized LLMs on edge devices with limited resources. Focuses on model compression, efficient inference, and device-specific optimizations for mobile phones, IoT devices, and embedded systems.
 
 📚 **References**:
-* [vLLM Production Deployment Guide](https://docs.vllm.ai/en/latest/serving/deploying_with_kubernetes.html) - Comprehensive guide for deploying LLMs at scale
+* [vLLM Production Deployment Guide](https://docs.vllm.ai/en/v0.6.4/serving/deploying_with_k8s.html) - Comprehensive guide for deploying LLMs at scale
 * [Gradio Documentation](https://www.gradio.app/docs/interface) - Framework for creating demo interfaces for ML models
 * [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA's toolkit for optimizing LLM inference
 * [AWS SageMaker Deployment Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html) - Best practices for deploying ML models in production
